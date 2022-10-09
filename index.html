@@ -9,35 +9,41 @@
       href="./images/favicon-32x32.png"
       type="image/x-icon"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
     <div class="card">
-      <picture>
-        <source
-          media="(min-width: 680px )"
-          srcset="./images/image-header-desktop.jpg"
-        />
-        <img src="./images/image-header-mobile.jpg" alt="header image" />
-      </picture>
-      <div class="content">
-        <p>Get <span>insights</span> that help your business grow.</p>
-        <p>
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </p>
-        <div class="stats">
-          <div class="stat">
-            <p>10k+</p>
-            <span>Companies</span>
-          </div>
-          <div class="stat">
-            <p>314</p>
-            <span>Templates</span>
-          </div>
-          <div class="stat">
-            <p>12M+</p>
-            <span>Queries</span>
+      <div class="media"></div>
+      <div class="cv">
+        <div class="content">
+          <p class="title">
+            Get <span class="insights">insights</span> that help your business
+            grow.
+          </p>
+          <p class="description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="stats">
+            <div class="stat">
+              <p class="figure">10k+</p>
+              <span class="label">Companies</span>
+            </div>
+            <div class="stat">
+              <p class="figure">314</p>
+              <span class="label">Templates</span>
+            </div>
+            <div class="stat">
+              <p class="figure">12M+</p>
+              <span class="label">Queries</span>
+            </div>
           </div>
         </div>
       </div>
